@@ -1,4 +1,0 @@
-print("object oriented programming")
-
-            
-
