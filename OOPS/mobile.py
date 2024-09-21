@@ -29,6 +29,10 @@ class Mobile:
 
         print(self.name,self.price)
 
+    def __str__(self):
+        
+        return self.name
+
 #object creation
 #reference_name=ClassName()
 
@@ -43,8 +47,8 @@ class Mobile:
 ######## use====>>> __init__ (constructor)######
 # call automatically
 
-Mobile_instance=Mobile("i phone 11","iphone","125GB",50000)
+mobile_instance=Mobile("i phone ","iphone","125GB",50000)
 
-Mobile_instance.display_details()
+print(mobile_instance)
 
 

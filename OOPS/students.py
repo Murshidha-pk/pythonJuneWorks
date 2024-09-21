@@ -1,4 +1,4 @@
-class student:                                            #class
+class Student:                                            #class
 
     name:str
 
@@ -12,7 +12,7 @@ class student:                                            #class
 
     department:str
 
-    def set_student(self,name,age,id,gender,mark,dept):      #initialise    ,atributes(self.name,...)
+    def __init__(self,name,age,id,gender,mark,dept):      #initialise    ,atributes(self.name,...)
 
         self.name=name
 
@@ -28,11 +28,14 @@ class student:                                            #class
 
     def display_student(self):                                 #for display
 
-        print(self.id,self.name)
+        print(self.name,self.age)
+
+    def __str__(self):
+
+        return self.name  
 
 #create object (create out of class)
-student_instance=student()
+student_instance=Student("murshi",21,101,"female",50,"address line 1")
 
-student_instance.set_student("murshi",21,101,"female",50,"address line 1")
+print(student_instance)
 
-student_instance.display_student()

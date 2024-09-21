@@ -52,3 +52,5 @@ word="hellopython"
 #sliced_str=word[0:10]
 sliced_str=word[10:4:-1]
 print(sliced_str)
+
+

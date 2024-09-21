@@ -7,7 +7,7 @@ largest_number=number[0]#1
 
 for i in number:#1,2
 
-    if i >largest_number:#1>0,2>0
+    if i >largest_number:#1>1,2>1
 
         largest_number=i#1,2
 print(largest_number)

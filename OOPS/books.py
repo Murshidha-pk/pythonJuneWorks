@@ -21,8 +21,9 @@ class Book:
 
         print(self.title,self.author,self.price)
 
-        def __str__(self):
-            return self.title
+    def __str__(self):
+
+        return self.title
 
 #create object
 
@@ -30,6 +31,8 @@ book_instance1=Book("rainraising","nirupama",470,"hindi")
 
 Book_instance2=Book("goatlife","benyamin",500,"malayalam")
 
-book_instance1.display_book()
+#book_instance1.display_book()
 
-print(book_instance1)
+print(book_instance1)   
+
+#__str__() ===>> string represanation of object
