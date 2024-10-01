@@ -13,17 +13,17 @@ text="abc123 @k,#7LMdef"
 
 #pattern="[0-9]"  #chck digits
 
-#pattern="[a-zA-Z0-9]"
+pattern="[a-zA-Z0-9]"
 
-#pattern="[^a-zA-Z]" #include digit ,alphbts ,spsl chrctrs
+# pattern="[^a-zA-Z]" #include digit ,alphbts ,spsl chrctrs
 
-pattern="[^0-9]"  #not include digit and include all aplphabets,chrctrs
+# pattern="[^0-9]"  #not include digit and include all aplphabets,chrctrs
 
 #pattern="[^a-zA-z0-9]" #spsl chrctr
 
 #pattern="[\s]"  #chck space
 
-#pattern="[^a-zA-Z0-9\s]"
+pattern="[^a-zA-Z0-9\s]"
 
 
 matcher=finditer(pattern,text)

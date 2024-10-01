@@ -3,9 +3,6 @@
 #first 3 alphabets
 #4th place PCAFHT
 #5th alphabets
-#4 digit
-#1 alphabet
-
 #AFZPK7190K
 
 from re import fullmatch

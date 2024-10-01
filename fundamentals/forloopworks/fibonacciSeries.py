@@ -1,11 +1,22 @@
 #fibanocci series
 
 
-previous=0
-current=1
-print(f"{previous},{current}",end=",")
-for i in range(1,11):
+def next__fibo_num(number:int):
+
+    previous=0
+    current=1
     next=previous+current
-    print(f"{next}",end=",")
-    previous=current
-    current=next        
+
+    while(next <= number):
+        next=previous+current
+        previous=current
+        current=next
+
+    return next
+
+print(next__fibo_num(5))
+print(next__fibo_num(13))
+
+
+        
+

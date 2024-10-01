@@ -11,7 +11,7 @@ def factorial(n):
             return n*factorial(n-1)  #5*(4)  4*3
         
 
-num=int(input("enter num"))
+num=int(input("enter num:"))
 
 print(factorial(num))
 

@@ -17,9 +17,9 @@ class Parent():
 
 class Child(Parent,Grandparents):
 
-    def m2(self):
+    def m3(self):
 
-        print("parent class m2 method")
+        print("child class m3 method")
 
 
 child_instance=Child()

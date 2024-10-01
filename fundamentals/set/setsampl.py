@@ -35,9 +35,9 @@ new_names=["hp","dell","lenovo","hari"]
 #intrsection
 #difference
 
-#new_set=names.union(new_names)
+# new_set=names.union(new_names)
 
-#new_set=names.intersection(new_names)
+# new_set=names.intersection(new_names)
 
 # new_set=names.difference(new_names)
 

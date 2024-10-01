@@ -55,4 +55,4 @@ fried_rice_instance=Dishes("fried rice",120,"half")
 
 restuarant_instance=Restuarant("caravans","kottakkal")
 
-restuarant.instance.add_dishes()
+# restuarant_instance.add_dishes()
