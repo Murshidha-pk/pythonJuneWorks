@@ -7,4 +7,4 @@ def is_leap_year(year):
     else:
         return False
     
-print(is_leap_year(1888))
+print(is_leap_year(1900))
